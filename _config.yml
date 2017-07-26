@@ -1,6 +1,6 @@
 # Site
 title:              ens.bid
-bio:                'ens.bid website'
+bio:                "Buy & Sell ethereum names"
 description:        "Buy & Sell ethereum names"
 reading_time:       true
 words_per_minute:   200
@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/bid.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://ens-bid.github.io/
+url:                https://ens-bid.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -39,8 +39,8 @@ disqus_shortname:   ens-bid
 #bing-verify:
 #email:
 #twitter:            username
-facebook:           ensbid-1929588120647465/
-github-url:         ens-bid/
+facebook:           ensbid-1929588120647465
+github-url:         ens-bid
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
