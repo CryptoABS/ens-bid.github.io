@@ -20,4 +20,4 @@ comments: false
 
 ## Auther
 
-- [Phyrex Tsai](github.com/PhyrexTsai)
+- [Phyrex Tsai](https://github.com/PhyrexTsai)
