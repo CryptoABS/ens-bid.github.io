@@ -1,0 +1,70 @@
+section.kv
+    .container
+        .jumbotron
+            h1.display-3 Hello, world!
+            p.lead
+                | This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+            hr.my-4
+            p
+                | It uses utility classes for typography and spacing to space content out within the larger container.
+            p.lead
+                a.btn.btn-primary.btn-lg(href='#', role='button') Learn more
+
+
+section.works
+    .container
+        .row.justify-content-md-center
+            .col-md-8.my-4
+                h3.text-center Best ENS trading market.
+                p.text-center ENS offers a secure and decentralised way to address resources both on and off the blockchain using simple, human-readable names.
+    .container
+        .row.justify-content-center
+            - for (var x = 0; x <6; x++)
+                .col-md-4.col-sm-12.my-2
+                    .card
+                        img.card-img-top(src='...', alt='Card image cap')
+                        .card-body
+                            h4.card-title Card title
+                            p.card-text
+                                | Some quick example text to build on the card title and make up the bulk of the card's content.
+section.roadmap
+    .container
+        .row.justify-content-center
+            .col-md-8.col-sm-12
+                .timeline
+
+section.chart.my-5
+    .container
+        .row.justify-content-center
+            .col-md-6.text-center
+                h3 ICO Token 分配
+                .piechart
+            .col-md-6.text-center
+                h3 ICO Fund Usage
+                .piechart
+section.ourteam.my-4
+    .container
+        .row.justify-content-center
+            .col.text-center
+                h1 Our Team
+        ul.row.justify-content-center.list-unstyled
+            - for (var x=0; x<3 ; x++)
+                li.col-md-4.p-5
+                    ul.list-unstyled.text-center
+                        li.member-image.p-2
+                            img.member-photo.rounded-circle(src="")
+                        li.member-title.my-2
+                            h5 CEO 
+                        li.member-des
+                            p Some quick example text to build on the card title and make
+section.contact.my-4
+    .container
+        .row.justify-content-center
+            .col.text-center
+                h1 Follow Us
+        .row.justify-content-center.my-4
+            .col-md-5
+                .input-group
+                    input.form-control.form-control-lg(type='text', placeholder='Your Email Address', aria-label='Search for...')
+                    span.input-group-btn
+                        button.btn.btn-secondary.btn-lg(type='button') SUBSCRIBE
