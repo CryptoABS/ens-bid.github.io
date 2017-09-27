@@ -1,8 +1,12 @@
 .footer
     .container
-        ul.row.list-unstyled.my-5
-            - for (var x = 0; x < 6; x++)
-                li.col.social
-                    |abs
-        p.text-center
-            |copyright 2017
+        .row.justify-content-center
+            .col-md-6.my-5
+                ul.list-unstyle.inline-list.d-flex.justify-content-center.px-0
+                    - for (var x = 0; x < 6; x++)
+                        li.list-inline-item
+                            |abs
+        .row
+            .col
+                 p.text-center
+                    |copyright 2017
