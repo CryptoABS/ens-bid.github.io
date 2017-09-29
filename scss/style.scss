@@ -1,5 +1,5 @@
 .kv {
-    background-color: #2B2B50;
+    background-color: #3F335D;
     background-image: linear-gradient(to top,rgba(0, 0, 0, 0.20),rgba(11, 100, 96, 0));
     // background-image: url(/img/kv-earth.jpg);
     position: relative;
@@ -20,7 +20,7 @@
 .card {
     border: 0px;
     img {
-        padding: 2rem;
+        // padding: 2rem;
     }
 }
 .ourteam {
@@ -48,3 +48,17 @@
         bottom: 0;
     }
   }
+.footer {
+    background-color: #2B2B50;
+    .socials {
+        li a{
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.5);
+            padding: 1rem;
+            &:hover {
+                color: rgba(255, 255, 255, 0.8);
+                transition: all 0.3s;
+            }
+        }
+    }   
+}

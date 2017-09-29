@@ -1,5 +1,5 @@
 .kv {
-  background-color: #2B2B50;
+  background-color: #3F335D;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(11, 100, 96, 0)));
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(11, 100, 96, 0));
   background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(11, 100, 96, 0));
@@ -19,8 +19,6 @@
 
 .card {
   border: 0px; }
-  .card img {
-    padding: 2rem; }
 
 .ourteam .member-image img {
   width: 10rem;
@@ -41,3 +39,15 @@
     left: 0;
     right: 0;
     bottom: 0; }
+
+.footer {
+  background-color: #2B2B50; }
+  .footer .socials li a {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1rem; }
+    .footer .socials li a:hover {
+      color: rgba(255, 255, 255, 0.8);
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }

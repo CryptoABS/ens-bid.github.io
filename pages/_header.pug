@@ -1,8 +1,9 @@
 nav.navbar.navbar-light.bg-light
     .container.justify-content-between
-        a.navbar-brand Navbar
+        a.navbar-brand(href='#')
+            img(src='/img/logo-inline.svg')
         .dropdown
-            a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                | Eng
+            a#navbarDropdownMenuLink.nav-link.dropdown-toggle.text-secondary(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                | 繁中
             .dropdown-menu.dropdown-menu-right(aria-labelledby='navbarDropdownMenuLink')
-                a.dropdown-item(href='#') 繁中
+                a.dropdown-item(href='#') ENG
