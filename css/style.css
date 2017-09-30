@@ -14,6 +14,12 @@
 
 .timeline img {
   width: 60%; }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .timeline img {
+      width: 80%; } }
+  @media (max-width: 575px) {
+    .timeline img {
+      width: 100%; } }
 
 .card {
   border: 0px; }
