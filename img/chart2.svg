@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400px" height="320px" viewBox="0 0 400 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>chart2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M129.08866,128.809897 L53.3750515,24.6008247 C76.3971134,7.87505155 100.633402,0 129.08866,0 L129.08866,128.809897 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75.7136082" height="128.809897" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M129.08866,128.809897 L6.58309278,168.616701 C-11.0030928,114.488454 7.33360825,58.0550515 53.3750515,24.6008247 L129.08866,128.809897 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="129.088498" height="144.015876" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M129.08866,128.809897 L204.802268,233.021649 C147.248454,274.836082 66.6940206,262.07732 24.8795876,204.523505 C16.516701,193.011134 10.9816495,182.144742 6.58309278,168.616701 L129.08866,128.809897 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="198.219175" height="128.820897" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M129.08866,128.809897 L129.08866,0 C200.229485,0 257.901237,57.6717526 257.901237,128.809897 C257.901237,171.495464 239.334021,207.93299 204.802268,233.021649 L129.08866,128.809897 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="128.812577" height="233.021649" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <text id="text-9" font-family="DINNextRoundedLTPro-Medium, DIN Next Rounded LT Pro" font-size="16" font-weight="400" fill="#FFFFFF">
+            <tspan x="248.792" y="157">Develop</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.262745098   0 0 0 0 0.101960784   0 0 0 0 0.411764706  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="working" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chart2">
+            <g id="Page-1" transform="translate(71.000000, 31.000000)">
+                <path d="M129.08866,128.809897 L53.3750515,24.6008247 C76.3971134,7.87505155 100.633402,0 129.08866,0 L129.08866,128.809897 Z" id="Fill-1" fill="#515151"></path>
+                <use id="Stroke-3" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" fill="#B288F7" xlink:href="#path-1"></use>
+                <path d="M129.08866,128.809897 L6.58309278,168.616701 C-11.0030928,114.488454 7.33360825,58.0550515 53.3750515,24.6008247 L129.08866,128.809897 Z" id="Fill-5" fill="#929292"></path>
+                <use id="Stroke-7" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="2" fill="#9D72E5" xlink:href="#path-3"></use>
+                <use id="Stroke-11" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="2" fill="#7B45D5" xlink:href="#path-5"></use>
+                <use id="Stroke-15" stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="2" fill="#7100D8" xlink:href="#path-7"></use>
+            </g>
+            <text id="40%" font-family="DINNextRoundedLTPro-Light, DIN Next Rounded LT Pro" font-size="24" font-weight="300" fill="#FFFFFF">
+                <tspan x="254.96" y="140">40%</tspan>
+            </text>
+            <g id="Develop" fill-opacity="1" fill="#FFFFFF">
+                <use filter="url(#filter-10)" xlink:href="#text-9"></use>
+                <use xlink:href="#text-9"></use>
+            </g>
+            <text id="10%" font-family="DINNextRoundedLTPro-Light, DIN Next Rounded LT Pro" font-size="24" font-weight="300" fill="#FFFFFF">
+                <tspan x="151.96" y="71">10%</tspan>
+            </text>
+            <text id="Legal" font-family="DINNextRoundedLTPro-Medium, DIN Next Rounded LT Pro" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="154.172" y="89">Legal</tspan>
+            </text>
+            <text id="20%" font-family="DINNextRoundedLTPro-Light, DIN Next Rounded LT Pro" font-size="24" font-weight="300" fill="#FFFFFF">
+                <tspan x="105.96" y="133">20%</tspan>
+            </text>
+            <text id="Marketing" font-family="DINNextRoundedLTPro-Medium, DIN Next Rounded LT Pro" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="92.268" y="151">Marketing</tspan>
+            </text>
+            <text id="30%" font-family="DINNextRoundedLTPro-Light, DIN Next Rounded LT Pro" font-size="24" font-weight="300" fill="#FFFFFF">
+                <tspan x="151.96" y="227">30%</tspan>
+            </text>
+            <text id="Operation" font-family="DINNextRoundedLTPro-Medium, DIN Next Rounded LT Pro" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="139.204" y="245">Operation</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

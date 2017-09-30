@@ -6,9 +6,9 @@ section.kv
             p.lead.text-center.text-white
                 | 您Ethereum上的身份
             .row.justify-content-md-center.my-4
-                .col-md-3.my-2
+                .col-md-4.col-lg-3.my-2
                     a.btn.btn-outline-primary.btn-lg.btn-block(href='#', role='button') White paper
-                .col-md-3.my-2
+                .col-md-4.col-lg-3.my-2
                     a.btn.btn-primary.btn-lg.btn-block(href='#', role='button') ENS.BID DApp
 
 section.works
@@ -65,12 +65,14 @@ section.works
 
 section.roadmap
     .container
+        hr.my-4
         .row.justify-content-center
             .col-md-6.text-center
                 h1 Roadmap
         .row.justify-content-center
             .col-md-8.col-sm-12
-                .timeline
+                .timeline.text-center
+                    img(src="/img/timeline.png")
 
 
 section.chart.my-5
@@ -79,11 +81,14 @@ section.chart.my-5
             .col-md-6.text-center
                 h3 ICO Token 分配
                 .piechart
+                    img(src="/img/chart1.svg")
             .col-md-6.text-center
                 h3 ICO Fund Usage
                 .piechart
+                    img(src="/img/chart2.svg")
 section.ourteam.my-4
     .container
+        hr.my-4
         .row.justify-content-center
             .col.text-center
                 h1 Our Team
@@ -94,9 +99,10 @@ section.ourteam.my-4
                         li.member-image.p-2
                             img.member-photo.rounded-circle(src="../img/member-default.jpg")
                         li.member-title.my-2
-                            h5 CEO 
+                            h5 蔡詠捷 | CEO 
                         li.member-des
-                            p Some quick example text to build on the card title and make
+                            p.text-left 曾任職中央研究院、2016年加入Migme東南亞為首的社群公司，協助Migme導入分散式架構。2017年發行台灣首次ICO項目CryptoABS，致力於用金融科技改善世界。擅長分散式系統、數位貨幣、區塊鏈技術、智能合約。2017年加入諦諾科技。
+
 section.contact.my-4
     .container
         hr.my-4

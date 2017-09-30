@@ -82,6 +82,8 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$brand:   #7100D8;
+$cta:     #00DD9C;
 
 $colors: (
   blue: $blue,
@@ -100,8 +102,8 @@ $colors: (
 ) !default;
 
 $theme-colors: (
-  primary: $blue,
-  secondary: $gray-600,
+  primary: $brand,
+  secondary: $cta,
   success: $green,
   info: $cyan,
   warning: $yellow,
