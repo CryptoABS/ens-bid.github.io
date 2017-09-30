@@ -1,3 +1,9 @@
+ul.navbar-nav {
+  width: 100%; }
+  @media (min-width: 992px) {
+    ul.navbar-nav li.nav-item.dropdown {
+      margin-left: auto; } }
+
 .kv {
   background-color: #3F335D;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(11, 100, 96, 0)));
@@ -20,6 +26,9 @@
   @media (max-width: 575px) {
     .timeline img {
       width: 100%; } }
+
+.chart .piechart img {
+  width: 100%; }
 
 .card {
   border: 0px; }
