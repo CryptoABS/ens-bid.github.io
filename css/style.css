@@ -73,14 +73,14 @@
 }
 
 .btn-outline-light-ct {
-  color: rgba(255, 255, 255, 0.8);
-  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.5);
   background-image: none;
-  border-color: rgba(255, 255, 255, 0.6); }
+  border-color: rgba(255, 255, 255, 1); }
   .btn-outline-light-ct:hover {
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.6); }
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(255, 255, 255, 1); }
 
 ul.navbar-nav {
   width: 100%; 
@@ -112,15 +112,44 @@ li.nav-item {
   } 
 }
 
-.kv {
-  background-color: #09101a;
-  background: url("../img/hero.png") no-repeat center center;
-  position: relative; 
-  
+@media (min-width: 768px) {
+  .kv {
+    background-color: #09101a;
+    background: url("../img/hero.jpg") no-repeat center center;
+    background-size: 100%;
+    position: relative; 
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .kv {
+    background-color: #09101a;
+    background: url("../img/hero.jpg") no-repeat center center;
+    background-size: 180%;
+    position: relative; 
+  }
+}
+
+@media (max-width: 575px) and (min-width: 390px) {
+  .kv {
+    background-color: #09101a;
+    background: url("../img/hero.jpg") no-repeat center center;
+    background-size: 240%;
+    position: relative; 
+  }
+}
+
+@media (max-width: 389px) {
+  .kv {
+    background-color: #09101a;
+    background: url("../img/hero.jpg") no-repeat center center;
+    background-size: 360%;
+    position: relative; 
+  }
 }
 
 .jumbotron {
-  padding: 7rem 2rem;
+  padding: 2rem 2rem;
   background-color: initial;
   top: 0;
   left: 0; }
