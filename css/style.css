@@ -116,7 +116,7 @@ li.nav-item {
   .kv {
     background-color: #09101a;
     background: url("../img/hero.jpg") no-repeat center center;
-    background-size: 100%;
+    background-size: 120%;
     position: relative; 
   }
 }
@@ -130,7 +130,7 @@ li.nav-item {
   }
 }
 
-@media (max-width: 575px) and (min-width: 390px) {
+@media (max-width: 575px) and (min-width: 450px) {
   .kv {
     background-color: #09101a;
     background: url("../img/hero.jpg") no-repeat center center;
@@ -139,7 +139,7 @@ li.nav-item {
   }
 }
 
-@media (max-width: 389px) {
+@media (max-width: 449px) {
   .kv {
     background-color: #09101a;
     background: url("../img/hero.jpg") no-repeat center center;
