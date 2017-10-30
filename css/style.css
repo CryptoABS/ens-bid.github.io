@@ -194,7 +194,7 @@ li.nav-item {
 
 .footer {
   background-color: #2467b5;
-  height: 4rem;
+  min-height: 4rem;
 }
 
 .footer div {
@@ -215,8 +215,16 @@ li.nav-item {
   margin-right: 1em;
 }
 
-.footer i {
-  font-size: 3em;
+@media (min-width: 768px) {
+  .footer i {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer i {
+    font-size: 2em;
+  }
 }
 
 .follow-input {
